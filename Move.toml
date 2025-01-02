@@ -1,0 +1,13 @@
+[package]
+name = "MoveTrigonometry"
+version = "0.0.1"
+
+[dependencies]
+MoveStdlib = { local = "../move-stdlib" }
+AptosStdlib = { local = "../aptos-stdlib" }
+
+[addresses]
+TrigonometryAddr = "0x2"
+
+[dev-addresses]
+TrigonometryAddr = "0x2"
